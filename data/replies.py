@@ -10,38 +10,39 @@ assistant_data = {
 
         "message": (
 
-            "👋 أهلاً بك في AI Cinematic Studio\n\n"
+            "🎬 Welcome to AI Cinematic Studio\n\n"
 
-            "أنا مساعدك السينمائي 🤖\n\n"
+            "أنا مساعدك السينمائي الذكي 🤖\n\n"
 
-            "مهمتي مساعدتك في إنشاء فيديوهات "
+            "سأساعدك في إنشاء فيديوهات "
             "سينمائية واقعية بجودة احترافية.\n\n"
 
-            "✨ سأساعدك في:\n"
+            "✨ يمكنك تعلم:\n"
             "🎥 كتابة Prompts احترافية\n"
             "🖼️ الحفاظ على الهوية\n"
-            "🎭 بناء المشاهد العاطفية\n"
-            "🌧️ إنشاء cinematic realism\n"
-            "⚡ تحسين جودة الفيديو\n\n"
+            "🌧️ Cinematic Realism\n"
+            "🎭 المشاهد العاطفية\n"
+            "⚡ مشاهد الأكشن\n"
+            "🌃 Cyberpunk Cairo\n\n"
 
-            "اختر ما تريد تعلمه 👇"
+            "اختر ما تريد 👇"
         ),
 
         "options": [
 
             {
                 "id": "prompt_help",
-                "title": "🎥 كيف أكتب Prompt؟"
+                "title": "🎥 تعلم كتابة Prompt"
             },
 
             {
                 "id": "upload_help",
-                "title": "🖼️ كيف أرفع الصور؟"
+                "title": "🖼️ رفع الصور"
             },
 
             {
                 "id": "examples",
-                "title": "💡 أمثلة جاهزة"
+                "title": "💡 أمثلة سينمائية"
             },
 
             {
@@ -66,9 +67,7 @@ assistant_data = {
 
         "message": (
 
-            "🎥 كتابة الـ Prompt هي أهم خطوة.\n\n"
-
-            "لكي تحصل على فيديو سينمائي احترافي اذكر:\n\n"
+            "🎥 لكي تكتب Prompt احترافي اذكر:\n\n"
 
             "📍 المكان\n"
             "🌙 الوقت\n"
@@ -78,16 +77,15 @@ assistant_data = {
             "🌧️ الجو العام\n"
             "👕 الملابس\n\n"
 
-            "✨ كل وصف إضافي يساعد Veo "
-            "على إنتاج مشهد أكثر واقعية."
+            "✨ كل وصف إضافي يعطي realism أعلى."
         ),
 
         "tips": [
 
             "استخدم cinematic lighting",
             "استخدم close-up shots",
-            "استخدم slow camera movement",
-            "استخدم emotional acting"
+            "استخدم emotional acting",
+            "استخدم slow camera movement"
         ],
 
         "options": [
@@ -117,13 +115,12 @@ assistant_data = {
             "🖼️ رفع الصور مهم للحفاظ على الهوية.\n\n"
 
             "✅ استخدم صور واضحة\n"
-            "✅ الوجه يكون ظاهر بالكامل\n"
+            "✅ الوجه ظاهر بالكامل\n"
             "✅ إضاءة جيدة\n"
-            "✅ صورة قريبة للوجه\n"
-            "✅ تجنب الصور الضبابية\n\n"
+            "✅ تجنب الصور الضبابية\n"
+            "✅ استخدم close-up face photos\n\n"
 
-            "🎬 كلما كانت الصور أوضح "
-            "كلما كانت النتيجة أكثر واقعية."
+            "🎬 الصور الأفضل = نتائج أفضل."
         ),
 
         "options": [
@@ -141,7 +138,7 @@ assistant_data = {
     },
 
     # ======================================================
-    # EXAMPLES
+    # EXAMPLES MENU
     # ======================================================
 
     "examples": {
@@ -156,148 +153,131 @@ assistant_data = {
         "options": [
 
             {
-                "id": "romance_example",
-                "title": "❤️ مشهد رومانسي"
+                "id": "nile_walk",
+                "title": "🌊 كورنيش النيل"
             },
 
             {
-                "id": "rain_example",
+                "id": "romantic_cafe",
+                "title": "❤️ كافيه رومانسي"
+            },
+
+            {
+                "id": "rain_scene",
                 "title": "🌧️ مشهد مطر"
             },
 
             {
-                "id": "action_example",
+                "id": "sad_scene",
+                "title": "😢 مشهد حزين"
+            },
+
+            {
+                "id": "wedding_scene",
+                "title": "💍 مشهد خطوبة"
+            },
+
+            {
+                "id": "action_scene",
                 "title": "⚡ مشهد أكشن"
             },
 
             {
-                "id": "cyberpunk_example",
+                "id": "cyberpunk_scene",
                 "title": "🌃 Cyberpunk Cairo"
             },
 
             {
-                "id": "start",
-                "title": "⬅️ الرئيسية"
-            }
-        ]
-    },
-
-    # ======================================================
-    # ROMANCE
-    # ======================================================
-
-    "romance_example": {
-
-        "type": "example",
-
-        "message": (
-
-            "❤️ Prompt رومانسي احترافي\n\n"
-
-            "شاب وفتاة عربيان يجلسان داخل "
-            "مقهى فاخر هادئ ليلًا، "
-            "إضاءة سينمائية دافئة، "
-            "حركة كاميرا بطيئة، "
-            "تعبيرات وجه عاطفية، "
-            "cinematic realism, "
-            "realistic skin texture."
-        ),
-
-        "options": [
-
-            {
-                "id": "rain_example",
-                "title": "🌧️ مشهد مطر"
+                "id": "metro_scene",
+                "title": "🚇 مترو القاهرة"
             },
 
             {
-                "id": "start",
-                "title": "⬅️ الرئيسية"
-            }
-        ]
-    },
-
-    # ======================================================
-    # RAIN
-    # ======================================================
-
-    "rain_example": {
-
-        "type": "example",
-
-        "message": (
-
-            "🌧️ Prompt مطر سينمائي\n\n"
-
-            "رجل عربي يقف تحت المطر ليلًا "
-            "في القاهرة، cinematic lighting، "
-            "slow motion، realistic wet skin، "
-            "dramatic atmosphere."
-        ),
-
-        "options": [
-
-            {
-                "id": "action_example",
-                "title": "⚡ مشهد أكشن"
+                "id": "rooftop_scene",
+                "title": "🏙️ سطح عمارة"
             },
 
             {
-                "id": "start",
-                "title": "⬅️ الرئيسية"
-            }
-        ]
-    },
-
-    # ======================================================
-    # ACTION
-    # ======================================================
-
-    "action_example": {
-
-        "type": "example",
-
-        "message": (
-
-            "⚡ Prompt أكشن احترافي\n\n"
-
-            "رجل عربي يركض داخل شوارع "
-            "ممطرة مظلمة، handheld camera، "
-            "dramatic cinematic lighting، "
-            "realistic body movement."
-        ),
-
-        "options": [
-
-            {
-                "id": "cyberpunk_example",
-                "title": "🌃 Cyberpunk Cairo"
+                "id": "sunset_scene",
+                "title": "🌅 وقت الغروب"
             },
 
             {
-                "id": "start",
-                "title": "⬅️ الرئيسية"
+                "id": "friends_laughing",
+                "title": "😂 صحاب بيضحكوا"
+            },
+
+            {
+                "id": "family_dinner",
+                "title": "🍽️ عشاء عائلي"
+            },
+
+            {
+                "id": "university_scene",
+                "title": "🎓 جامعة"
+            },
+
+            {
+                "id": "coffee_scene",
+                "title": "☕ شرب القهوة"
+            },
+
+            {
+                "id": "gym_scene",
+                "title": "🏋️ الجيم"
+            },
+
+            {
+                "id": "football_scene",
+                "title": "⚽ كرة القدم"
+            },
+
+            {
+                "id": "beach_scene",
+                "title": "🏖️ البحر"
+            },
+
+            {
+                "id": "hospital_scene",
+                "title": "🏥 المستشفى"
+            },
+
+            {
+                "id": "airport_scene",
+                "title": "✈️ المطار"
+            },
+
+            {
+                "id": "wedding_party_scene",
+                "title": "🎉 فرح"
             }
         ]
     },
 
     # ======================================================
-    # CYBERPUNK
+    # NILE WALK
     # ======================================================
 
-    "cyberpunk_example": {
+    "nile_walk": {
 
         "type": "example",
 
         "message": (
 
-            "🌃 Cyberpunk Cairo\n\n"
+            "🌊 Nile Corniche Walk\n\n"
 
-            "رجل عربي يسير داخل شوارع "
-            "القاهرة المستقبلية بإضاءة neon، "
-            "cinematic reflections، "
-            "slow tracking shot، "
-            "ultra realistic atmosphere."
+            "🇺🇸 English Prompt:\n\n"
+
+            "Two realistic Arabic young men walking together "
+            "on the Nile Corniche at night in Cairo, cinematic "
+            "street lighting, realistic skin texture, emotional "
+            "atmosphere, slow cinematic camera movement.\n\n"
+
+            "🇪🇬 Arabic Prompt:\n\n"
+
+            "شابان عربيان يسيران معًا على كورنيش النيل "
+            "ليلًا في القاهرة، إضاءة سينمائية دافئة، "
+            "حركة كاميرا بطيئة."
         ),
 
         "options": [
@@ -305,79 +285,168 @@ assistant_data = {
             {
                 "id": "examples",
                 "title": "💡 كل الأمثلة"
-            },
-
-            {
-                "id": "start",
-                "title": "⬅️ الرئيسية"
             }
         ]
     },
 
     # ======================================================
-    # MISTAKES
+    # ROMANTIC CAFE
     # ======================================================
 
-    "mistakes": {
+    "romantic_cafe": {
 
-        "type": "warning",
+        "type": "example",
 
         "message": (
 
-            "⚠️ أخطاء تقلل جودة الفيديو:\n\n"
+            "❤️ Romantic Cafe Scene\n\n"
 
-            "🚫 prompts قصيرة جدًا\n"
-            "🚫 صور ضبابية\n"
-            "🚫 كثرة الشخصيات\n"
-            "🚫 حركة عنيفة جدًا\n"
-            "🚫 crowd scenes\n"
-            "🚫 fast camera movement"
-        ),
+            "🇺🇸 English Prompt:\n\n"
 
-        "options": [
+            "A realistic Arabic couple sitting inside a luxurious "
+            "quiet cafe at night, warm cinematic lighting, "
+            "deep emotional eye contact, cinematic realism.\n\n"
 
-            {
-                "id": "prompt_help",
-                "title": "🎥 تعلم كتابة Prompt"
-            },
+            "🇪🇬 Arabic Prompt:\n\n"
 
-            {
-                "id": "start",
-                "title": "⬅️ الرئيسية"
-            }
-        ]
-    },
-
-    # ======================================================
-    # PRO TIPS
-    # ======================================================
-
-    "pro_tips": {
-
-        "type": "tips",
-
-        "message": (
-
-            "🔥 نصائح احترافية:\n\n"
-
-            "✅ استخدم close-up shots\n"
-            "✅ استخدم cinematic lighting\n"
-            "✅ استخدم emotional acting\n"
-            "✅ استخدم slow movement\n"
-            "✅ اجعل المشهد بسيط وواضح\n"
-            "✅ استخدم realistic atmosphere"
+            "شاب وفتاة عربيان يجلسان داخل مقهى فاخر "
+            "هادئ ليلًا، إضاءة سينمائية دافئة."
         ),
 
         "options": [
 
             {
                 "id": "examples",
-                "title": "💡 أمثلة جاهزة"
-            },
+                "title": "💡 كل الأمثلة"
+            }
+        ]
+    },
+
+    # ======================================================
+    # RAIN SCENE
+    # ======================================================
+
+    "rain_scene": {
+
+        "type": "example",
+
+        "message": (
+
+            "🌧️ Rain Drama Scene\n\n"
+
+            "🇺🇸 English Prompt:\n\n"
+
+            "A realistic Arabic man standing under heavy rain "
+            "at night in Cairo, dramatic cinematic lighting, "
+            "realistic wet skin texture.\n\n"
+
+            "🇪🇬 Arabic Prompt:\n\n"
+
+            "رجل عربي يقف تحت المطر الغزير "
+            "ليلًا في القاهرة."
+        ),
+
+        "options": [
 
             {
-                "id": "start",
-                "title": "⬅️ الرئيسية"
+                "id": "examples",
+                "title": "💡 كل الأمثلة"
+            }
+        ]
+    },
+
+    # ======================================================
+    # SAD SCENE
+    # ======================================================
+
+    "sad_scene": {
+
+        "type": "example",
+
+        "message": (
+
+            "😢 Emotional Sad Scene\n\n"
+
+            "🇺🇸 English Prompt:\n\n"
+
+            "A realistic Arabic woman sitting alone during sunset, "
+            "emotional cinematic lighting, realistic tears.\n\n"
+
+            "🇪🇬 Arabic Prompt:\n\n"
+
+            "فتاة عربية تجلس وحيدة وقت الغروب، "
+            "إضاءة سينمائية حزينة."
+        ),
+
+        "options": [
+
+            {
+                "id": "examples",
+                "title": "💡 كل الأمثلة"
+            }
+        ]
+    },
+
+    # ======================================================
+    # WEDDING SCENE
+    # ======================================================
+
+    "wedding_scene": {
+
+        "type": "example",
+
+        "message": (
+
+            "💍 Wedding Proposal Scene\n\n"
+
+            "🇺🇸 English Prompt:\n\n"
+
+            "A realistic Arabic man proposing to his girlfriend "
+            "on a rooftop at night, cinematic city lights.\n\n"
+
+            "🇪🇬 Arabic Prompt:\n\n"
+
+            "شاب عربي يتقدم لخطبة حبيبته فوق سطح "
+            "عمارة ليلًا."
+        ),
+
+        "options": [
+
+            {
+                "id": "examples",
+                "title": "💡 كل الأمثلة"
+            }
+        ]
+    },
+
+    # ======================================================
+    # ACTION SCENE
+    # ======================================================
+
+    "action_scene": {
+
+        "type": "example",
+
+        "message": (
+
+            "⚡ Action Chase Scene\n\n"
+
+            "🇺🇸 English Prompt:\n\n"
+
+            "A realistic Arabic man running through dark rainy "
+            "streets at night, handheld cinematic camera.\n\n"
+
+            "🇪🇬 Arabic Prompt:\n\n"
+
+            "رجل عربي يركض داخل شوارع مظلمة ممطرة "
+            "ليلًا."
+        ),
+
+        "options": [
+
+            {
+                "id": "examples",
+                "title": "💡 كل الأمثلة"
             }
         ]
     }
