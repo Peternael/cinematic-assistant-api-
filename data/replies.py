@@ -5,6 +5,7 @@ assistant_data = {
     # ======================================================
 
     "start": {
+
         "type": "menu",
 
         "message": (
@@ -139,7 +140,6 @@ assistant_data = {
             {"id": "hospital_scene", "title": "🏥 المستشفى"},
             {"id": "airport_scene", "title": "✈️ المطار"},
             {"id": "wedding_party_scene", "title": "🎉 فرح"},
-            {"id": "night_drive_scene", "title": "🚘 Night Drive"},
             {"id": "desert_scene", "title": "🏜️ الصحراء"},
             {"id": "gaming_scene", "title": "🎮 Gaming"},
             {"id": "library_scene", "title": "📚 المكتبة"},
@@ -162,11 +162,9 @@ assistant_data = {
         "message": (
             "🌊 Nile Corniche Walk\n\n"
             "🇺🇸 English Prompt:\n\n"
-            "Two realistic Arabic young men walking together "
-            "on the Nile Corniche at night in Cairo, cinematic "
-            "street lighting, emotional atmosphere.\n\n"
+            "Two realistic Arabic young men walking together on the Nile Corniche at night in Cairo.\n\n"
             "🇪🇬 Arabic Prompt:\n\n"
-            "شابان عربيان يسيران معًا على كورنيش النيل ليلًا."
+            "شابان عربيان يسيران على كورنيش النيل ليلًا."
         ),
         "options": [{"id": "examples", "title": "💡 كل الأمثلة"}]
     },
@@ -176,10 +174,9 @@ assistant_data = {
         "message": (
             "❤️ Romantic Cafe Scene\n\n"
             "🇺🇸 English Prompt:\n\n"
-            "A realistic Arabic couple sitting inside a luxurious "
-            "quiet cafe at night, warm cinematic lighting.\n\n"
+            "Arabic couple sitting inside luxury cafe at night.\n\n"
             "🇪🇬 Arabic Prompt:\n\n"
-            "شاب وفتاة عربيان يجلسان داخل مقهى فاخر ليلًا."
+            "شاب وفتاة عربيان داخل كافيه فاخر."
         ),
         "options": [{"id": "examples", "title": "💡 كل الأمثلة"}]
     },
@@ -189,10 +186,9 @@ assistant_data = {
         "message": (
             "🌧️ Rain Drama Scene\n\n"
             "🇺🇸 English Prompt:\n\n"
-            "A realistic Arabic man standing under heavy rain "
-            "at night in Cairo.\n\n"
+            "Arabic man standing under heavy rain at night.\n\n"
             "🇪🇬 Arabic Prompt:\n\n"
-            "رجل عربي يقف تحت المطر الغزير ليلًا."
+            "رجل عربي يقف تحت المطر ليلًا."
         ),
         "options": [{"id": "examples", "title": "💡 كل الأمثلة"}]
     },
@@ -202,7 +198,7 @@ assistant_data = {
         "message": (
             "😢 Emotional Sad Scene\n\n"
             "🇺🇸 English Prompt:\n\n"
-            "A realistic Arabic woman crying during sunset.\n\n"
+            "Arabic girl crying during sunset.\n\n"
             "🇪🇬 Arabic Prompt:\n\n"
             "فتاة عربية تبكي وقت الغروب."
         ),
@@ -214,7 +210,7 @@ assistant_data = {
         "message": (
             "💍 Wedding Proposal Scene\n\n"
             "🇺🇸 English Prompt:\n\n"
-            "A realistic Arabic man proposing on rooftop.\n\n"
+            "Arabic man proposing to his girlfriend on rooftop.\n\n"
             "🇪🇬 Arabic Prompt:\n\n"
             "شاب عربي يتقدم لخطبة حبيبته."
         ),
@@ -224,11 +220,11 @@ assistant_data = {
     "action_scene": {
         "type": "example",
         "message": (
-            "⚡ Action Chase Scene\n\n"
+            "⚡ Action Scene\n\n"
             "🇺🇸 English Prompt:\n\n"
-            "A realistic Arabic man running through rainy streets.\n\n"
+            "Arabic man running in dark rainy street.\n\n"
             "🇪🇬 Arabic Prompt:\n\n"
-            "رجل عربي يركض داخل شوارع ممطرة."
+            "رجل عربي يركض في شارع مظلم."
         ),
         "options": [{"id": "examples", "title": "💡 كل الأمثلة"}]
     },
@@ -238,9 +234,9 @@ assistant_data = {
         "message": (
             "🌃 Cyberpunk Cairo\n\n"
             "🇺🇸 English Prompt:\n\n"
-            "Futuristic cyberpunk Cairo streets with neon lights.\n\n"
+            "Futuristic Cairo with neon cyberpunk lighting.\n\n"
             "🇪🇬 Arabic Prompt:\n\n"
-            "شوارع القاهرة المستقبلية بإضاءة neon."
+            "القاهرة المستقبلية بإضاءة cyberpunk."
         ),
         "options": [{"id": "examples", "title": "💡 كل الأمثلة"}]
     },
@@ -248,11 +244,11 @@ assistant_data = {
     "metro_scene": {
         "type": "example",
         "message": (
-            "🚇 Cairo Metro Scene\n\n"
+            "🚇 Metro Scene\n\n"
             "🇺🇸 English Prompt:\n\n"
-            "Arabic man standing inside Cairo metro station.\n\n"
+            "Arabic young man standing in Cairo metro station.\n\n"
             "🇪🇬 Arabic Prompt:\n\n"
-            "شاب عربي يقف داخل محطة مترو القاهرة."
+            "شاب عربي داخل محطة المترو."
         ),
         "options": [{"id": "examples", "title": "💡 كل الأمثلة"}]
     },
@@ -262,9 +258,9 @@ assistant_data = {
         "message": (
             "🏙️ Rooftop Scene\n\n"
             "🇺🇸 English Prompt:\n\n"
-            "Arabic friends sitting together on rooftop at night.\n\n"
+            "Arabic friends talking on rooftop at night.\n\n"
             "🇪🇬 Arabic Prompt:\n\n"
-            "شابان عربيان يجلسان فوق سطح عمارة."
+            "أصدقاء عرب فوق سطح عمارة."
         ),
         "options": [{"id": "examples", "title": "💡 كل الأمثلة"}]
     },
@@ -284,7 +280,7 @@ assistant_data = {
     "friends_laughing": {
         "type": "example",
         "message": (
-            "😂 Friends Laughing Scene\n\n"
+            "😂 Friends Laughing\n\n"
             "🇺🇸 English Prompt:\n\n"
             "Arabic friends laughing together inside cafe.\n\n"
             "🇪🇬 Arabic Prompt:\n\n"
@@ -296,7 +292,7 @@ assistant_data = {
     "family_dinner": {
         "type": "example",
         "message": (
-            "🍽️ Family Dinner Scene\n\n"
+            "🍽️ Family Dinner\n\n"
             "🇺🇸 English Prompt:\n\n"
             "Arabic family having dinner together.\n\n"
             "🇪🇬 Arabic Prompt:\n\n"
@@ -310,9 +306,9 @@ assistant_data = {
         "message": (
             "🎓 University Scene\n\n"
             "🇺🇸 English Prompt:\n\n"
-            "Arabic student walking in university campus.\n\n"
+            "Arabic student walking in university.\n\n"
             "🇪🇬 Arabic Prompt:\n\n"
-            "طالب عربي يسير داخل الجامعة."
+            "طالب عربي داخل الجامعة."
         ),
         "options": [{"id": "examples", "title": "💡 كل الأمثلة"}]
     },
@@ -324,7 +320,7 @@ assistant_data = {
             "🇺🇸 English Prompt:\n\n"
             "Arabic man drinking coffee alone.\n\n"
             "🇪🇬 Arabic Prompt:\n\n"
-            "رجل عربي يشرب القهوة وحده."
+            "رجل عربي يشرب القهوة."
         ),
         "options": [{"id": "examples", "title": "💡 كل الأمثلة"}]
     },
@@ -334,7 +330,7 @@ assistant_data = {
         "message": (
             "🏋️ Gym Scene\n\n"
             "🇺🇸 English Prompt:\n\n"
-            "Arabic young man training inside gym.\n\n"
+            "Arabic young man training in gym.\n\n"
             "🇪🇬 Arabic Prompt:\n\n"
             "شاب عربي يتمرن داخل الجيم."
         ),
@@ -360,7 +356,7 @@ assistant_data = {
             "🇺🇸 English Prompt:\n\n"
             "Arabic couple walking on beach during sunset.\n\n"
             "🇪🇬 Arabic Prompt:\n\n"
-            "شاب وفتاة عربيان يسيران على البحر."
+            "شاب وفتاة عربيان على البحر."
         ),
         "options": [{"id": "examples", "title": "💡 كل الأمثلة"}]
     },
@@ -370,9 +366,9 @@ assistant_data = {
         "message": (
             "🏥 Hospital Scene\n\n"
             "🇺🇸 English Prompt:\n\n"
-            "Arabic man sitting alone inside hospital corridor.\n\n"
+            "Arabic man sitting alone in hospital corridor.\n\n"
             "🇪🇬 Arabic Prompt:\n\n"
-            "رجل عربي يجلس داخل ممر مستشفى."
+            "رجل عربي داخل المستشفى."
         ),
         "options": [{"id": "examples", "title": "💡 كل الأمثلة"}]
     },
@@ -382,9 +378,9 @@ assistant_data = {
         "message": (
             "✈️ Airport Scene\n\n"
             "🇺🇸 English Prompt:\n\n"
-            "Arabic couple saying goodbye at airport.\n\n"
+            "Arabic couple saying goodbye in airport.\n\n"
             "🇪🇬 Arabic Prompt:\n\n"
-            "شاب وفتاة عربيان يودعان بعضهما."
+            "شاب وفتاة عربيان داخل المطار."
         ),
         "options": [{"id": "examples", "title": "💡 كل الأمثلة"}]
     },
@@ -394,11 +390,172 @@ assistant_data = {
         "message": (
             "🎉 Wedding Party Scene\n\n"
             "🇺🇸 English Prompt:\n\n"
-            "Arabic wedding celebration with cinematic lighting.\n\n"
+            "Arabic wedding celebration with cinematic lights.\n\n"
             "🇪🇬 Arabic Prompt:\n\n"
-            "حفل زفاف عربي بإضاءة سينمائية."
+            "حفل زفاف عربي."
         ),
         "options": [{"id": "examples", "title": "💡 كل الأمثلة"}]
+    },
+
+    "desert_scene": {
+        "type": "example",
+        "message": (
+            "🏜️ Desert Scene\n\n"
+            "🇺🇸 English Prompt:\n\n"
+            "Arabic man walking in desert during sunset.\n\n"
+            "🇪🇬 Arabic Prompt:\n\n"
+            "رجل عربي داخل الصحراء."
+        ),
+        "options": [{"id": "examples", "title": "💡 كل الأمثلة"}]
+    },
+
+    "gaming_scene": {
+        "type": "example",
+        "message": (
+            "🎮 Gaming Scene\n\n"
+            "🇺🇸 English Prompt:\n\n"
+            "Arabic gamer inside RGB gaming room.\n\n"
+            "🇪🇬 Arabic Prompt:\n\n"
+            "شاب عربي داخل غرفة Gaming."
+        ),
+        "options": [{"id": "examples", "title": "💡 كل الأمثلة"}]
+    },
+
+    "library_scene": {
+        "type": "example",
+        "message": (
+            "📚 Library Scene\n\n"
+            "🇺🇸 English Prompt:\n\n"
+            "Arabic student studying inside library.\n\n"
+            "🇪🇬 Arabic Prompt:\n\n"
+            "طالب عربي داخل المكتبة."
+        ),
+        "options": [{"id": "examples", "title": "💡 كل الأمثلة"}]
+    },
+
+    "restaurant_scene": {
+        "type": "example",
+        "message": (
+            "🍕 Restaurant Scene\n\n"
+            "🇺🇸 English Prompt:\n\n"
+            "Arabic family eating inside restaurant.\n\n"
+            "🇪🇬 Arabic Prompt:\n\n"
+            "عائلة عربية داخل مطعم."
+        ),
+        "options": [{"id": "examples", "title": "💡 كل الأمثلة"}]
+    },
+
+    "mall_scene": {
+        "type": "example",
+        "message": (
+            "🛍️ Mall Scene\n\n"
+            "🇺🇸 English Prompt:\n\n"
+            "Arabic couple walking inside mall.\n\n"
+            "🇪🇬 Arabic Prompt:\n\n"
+            "شاب وفتاة داخل المول."
+        ),
+        "options": [{"id": "examples", "title": "💡 كل الأمثلة"}]
+    },
+
+    "boxing_scene": {
+        "type": "example",
+        "message": (
+            "🥊 Boxing Scene\n\n"
+            "🇺🇸 English Prompt:\n\n"
+            "Arabic boxer training in boxing gym.\n\n"
+            "🇪🇬 Arabic Prompt:\n\n"
+            "ملاكم عربي داخل الجيم."
+        ),
+        "options": [{"id": "examples", "title": "💡 كل الأمثلة"}]
+    },
+
+    "street_food_scene": {
+        "type": "example",
+        "message": (
+            "🌮 Street Food Scene\n\n"
+            "🇺🇸 English Prompt:\n\n"
+            "Arabic young man eating street food at night.\n\n"
+            "🇪🇬 Arabic Prompt:\n\n"
+            "شاب عربي يأكل street food."
+        ),
+        "options": [{"id": "examples", "title": "💡 كل الأمثلة"}]
+    },
+
+    "train_scene": {
+        "type": "example",
+        "message": (
+            "🚆 Train Scene\n\n"
+            "🇺🇸 English Prompt:\n\n"
+            "Arabic man sitting near train window.\n\n"
+            "🇪🇬 Arabic Prompt:\n\n"
+            "رجل عربي داخل القطار."
+        ),
+        "options": [{"id": "examples", "title": "💡 كل الأمثلة"}]
+    },
+
+    "exam_scene": {
+        "type": "example",
+        "message": (
+            "📝 Exam Scene\n\n"
+            "🇺🇸 English Prompt:\n\n"
+            "Arabic student studying before exams.\n\n"
+            "🇪🇬 Arabic Prompt:\n\n"
+            "طالب عربي يذاكر قبل الامتحانات."
+        ),
+        "options": [{"id": "examples", "title": "💡 كل الأمثلة"}]
+    },
+
+    # ======================================================
+    # MISTAKES
+    # ======================================================
+
+    "mistakes": {
+
+        "type": "warning",
+
+        "message": (
+
+            "⚠️ أخطاء تقلل جودة الفيديو:\n\n"
+
+            "🚫 prompts قصيرة جدًا\n"
+            "🚫 صور ضبابية\n"
+            "🚫 كثرة الشخصيات\n"
+            "🚫 حركة عنيفة جدًا\n"
+            "🚫 crowd scenes\n"
+            "🚫 fast camera movement"
+        ),
+
+        "options": [
+
+            {"id": "start", "title": "⬅️ الرئيسية"}
+
+        ]
+    },
+
+    # ======================================================
+    # PRO TIPS
+    # ======================================================
+
+    "pro_tips": {
+
+        "type": "tips",
+
+        "message": (
+
+            "🔥 نصائح احترافية:\n\n"
+
+            "✅ استخدم close-up shots\n"
+            "✅ استخدم cinematic lighting\n"
+            "✅ استخدم emotional acting\n"
+            "✅ استخدم slow movement\n"
+            "✅ استخدم realistic atmosphere"
+        ),
+
+        "options": [
+
+            {"id": "start", "title": "⬅️ الرئيسية"}
+
+        ]
     }
 
 }
