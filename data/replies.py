@@ -10,9 +10,9 @@ assistant_data = {
 
         "message": (
 
-            "🎬 Welcome to AI Cinematic Studio\n\n"
+            "👋 أهلاً بك في AI Cinematic Studio\n\n"
 
-            "أنا Director AI 🤖\n\n"
+            "أنا مساعدك السينمائي 🤖\n\n"
 
             "مهمتي مساعدتك في إنشاء فيديوهات "
             "سينمائية واقعية بجودة احترافية.\n\n"
@@ -31,12 +31,17 @@ assistant_data = {
 
             {
                 "id": "prompt_help",
-                "title": "🎥 تعلم كتابة Prompt"
+                "title": "🎥 كيف أكتب Prompt؟"
             },
 
             {
-                "id": "ultra_cinematic",
-                "title": "🔥 Ultra Cinematic"
+                "id": "upload_help",
+                "title": "🖼️ كيف أرفع الصور؟"
+            },
+
+            {
+                "id": "examples",
+                "title": "💡 أمثلة جاهزة"
             },
 
             {
@@ -46,7 +51,7 @@ assistant_data = {
 
             {
                 "id": "pro_tips",
-                "title": "🚀 نصائح احترافية"
+                "title": "🔥 نصائح احترافية"
             }
         ]
     },
@@ -73,26 +78,23 @@ assistant_data = {
             "🌧️ الجو العام\n"
             "👕 الملابس\n\n"
 
-            "✨ كل وصف إضافي يساعد على إنتاج "
-            "مشهد أكثر واقعية."
+            "✨ كل وصف إضافي يساعد Veo "
+            "على إنتاج مشهد أكثر واقعية."
         ),
 
         "tips": [
 
             "استخدم cinematic lighting",
-
             "استخدم close-up shots",
-
             "استخدم slow camera movement",
-
             "استخدم emotional acting"
         ],
 
         "options": [
 
             {
-                "id": "ultra_cinematic",
-                "title": "🔥 Ultra Cinematic"
+                "id": "examples",
+                "title": "💡 أمثلة جاهزة"
             },
 
             {
@@ -103,54 +105,74 @@ assistant_data = {
     },
 
     # ======================================================
-    # ULTRA CINEMATIC
+    # UPLOAD HELP
     # ======================================================
 
-    "ultra_cinematic": {
+    "upload_help": {
+
+        "type": "tutorial",
+
+        "message": (
+
+            "🖼️ رفع الصور مهم للحفاظ على الهوية.\n\n"
+
+            "✅ استخدم صور واضحة\n"
+            "✅ الوجه يكون ظاهر بالكامل\n"
+            "✅ إضاءة جيدة\n"
+            "✅ صورة قريبة للوجه\n"
+            "✅ تجنب الصور الضبابية\n\n"
+
+            "🎬 كلما كانت الصور أوضح "
+            "كلما كانت النتيجة أكثر واقعية."
+        ),
+
+        "options": [
+
+            {
+                "id": "examples",
+                "title": "💡 أمثلة جاهزة"
+            },
+
+            {
+                "id": "start",
+                "title": "⬅️ الرئيسية"
+            }
+        ]
+    },
+
+    # ======================================================
+    # EXAMPLES
+    # ======================================================
+
+    "examples": {
 
         "type": "menu",
 
         "message": (
 
-            "🎬 Ultra Cinematic Prompts\n\n"
-
-            "اختر نوع المشهد السينمائي الاحترافي 👇\n\n"
-
-            "🔥 هذه الـ prompts مصممة للحصول على:\n\n"
-
-            "✅ Cinematic Realism\n"
-            "✅ Realistic Humans\n"
-            "✅ Emotional Acting\n"
-            "✅ Consistent Identity\n"
-            "✅ Professional Camera Feel\n"
-            "✅ Veo Optimized Results"
+            "🎬 اختر نوع المشهد السينمائي 👇"
         ),
 
         "options": [
 
             {
-                "id": "ultra_romance",
-                "title": "❤️ Ultra Romance"
+                "id": "romance_example",
+                "title": "❤️ مشهد رومانسي"
             },
 
             {
-                "id": "ultra_rain",
-                "title": "🌧️ Ultra Rain Drama"
+                "id": "rain_example",
+                "title": "🌧️ مشهد مطر"
             },
 
             {
-                "id": "ultra_action",
-                "title": "⚡ Ultra Action"
+                "id": "action_example",
+                "title": "⚡ مشهد أكشن"
             },
 
             {
-                "id": "ultra_emotional",
-                "title": "😢 Ultra Emotional"
-            },
-
-            {
-                "id": "ultra_cyberpunk",
-                "title": "🌃 Ultra Cyberpunk"
+                "id": "cyberpunk_example",
+                "title": "🌃 Cyberpunk Cairo"
             },
 
             {
@@ -161,59 +183,31 @@ assistant_data = {
     },
 
     # ======================================================
-    # ULTRA ROMANCE
+    # ROMANCE
     # ======================================================
 
-    "ultra_romance": {
+    "romance_example": {
 
         "type": "example",
 
         "message": (
 
-            "❤️ Ultra Cinematic Romance\n\n"
+            "❤️ Prompt رومانسي احترافي\n\n"
 
-            "🇺🇸 English Prompt:\n\n"
-
-            "A realistic Arabic couple sitting together "
-            "inside a luxurious quiet cafe at night, "
-            "deep emotional eye contact, warm cinematic "
-            "lighting, realistic skin texture, subtle facial "
-            "expressions, cinematic depth of field, "
-            "slow push-in camera movement, ultra realistic "
-            "details, emotional atmosphere, realistic shadows, "
-            "natural body movement, cinematic realism.\n\n"
-
-            "🇪🇬 Arabic Prompt:\n\n"
-
-            "شاب وفتاة عربيان يجلسان داخل مقهى فاخر "
-            "هادئ ليلًا، نظرات عاطفية عميقة، إضاءة "
-            "سينمائية دافئة، تفاصيل واقعية جدًا للبشرة، "
-            "تعبيرات وجه طبيعية، حركة كاميرا بطيئة "
-            "احترافية، أجواء رومانسية واقعية.\n\n"
-
-            "🎬 Cinematic Notes:\n\n"
-
-            "• close-up shots\n"
-            "• warm lighting\n"
-            "• slow push-in camera\n"
-            "• emotional acting\n\n"
-
-            "🚀 Ultra Cinematic Tips:\n\n"
-
-            "✨ المشاهد الهادئة تعطي realism أعلى\n"
-            "✨ النظرات العاطفية تعطي cinematic feeling"
+            "شاب وفتاة عربيان يجلسان داخل "
+            "مقهى فاخر هادئ ليلًا، "
+            "إضاءة سينمائية دافئة، "
+            "حركة كاميرا بطيئة، "
+            "تعبيرات وجه عاطفية، "
+            "cinematic realism, "
+            "realistic skin texture."
         ),
 
         "options": [
 
             {
-                "id": "ultra_rain",
-                "title": "🌧️ Ultra Rain Drama"
-            },
-
-            {
-                "id": "ultra_cinematic",
-                "title": "🔥 كل الـ Ultra"
+                "id": "rain_example",
+                "title": "🌧️ مشهد مطر"
             },
 
             {
@@ -224,50 +218,28 @@ assistant_data = {
     },
 
     # ======================================================
-    # ULTRA RAIN
+    # RAIN
     # ======================================================
 
-    "ultra_rain": {
+    "rain_example": {
 
         "type": "example",
 
         "message": (
 
-            "🌧️ Ultra Rain Drama\n\n"
+            "🌧️ Prompt مطر سينمائي\n\n"
 
-            "🇺🇸 English Prompt:\n\n"
-
-            "A realistic Arabic man standing under "
-            "heavy rain at night in Cairo, emotional cinematic "
-            "lighting, realistic wet skin texture, dramatic "
-            "rain atmosphere, close-up emotional shot, "
-            "slow motion cinematic movement.\n\n"
-
-            "🇪🇬 Arabic Prompt:\n\n"
-
-            "رجل عربي يقف وحيدًا تحت المطر الغزير "
-            "ليلًا في القاهرة، إضاءة سينمائية درامية، "
-            "تفاصيل واقعية للبشرة المبللة، أجواء حزينة "
-            "واقعية، حركة كاميرا بطيئة.\n\n"
-
-            "🎬 Cinematic Notes:\n\n"
-
-            "• rain reflections\n"
-            "• close-up emotional shots\n"
-            "• cinematic wet lighting\n"
-            "• slow motion only"
+            "رجل عربي يقف تحت المطر ليلًا "
+            "في القاهرة، cinematic lighting، "
+            "slow motion، realistic wet skin، "
+            "dramatic atmosphere."
         ),
 
         "options": [
 
             {
-                "id": "ultra_action",
-                "title": "⚡ Ultra Action"
-            },
-
-            {
-                "id": "ultra_cinematic",
-                "title": "🔥 كل الـ Ultra"
+                "id": "action_example",
+                "title": "⚡ مشهد أكشن"
             },
 
             {
@@ -278,47 +250,28 @@ assistant_data = {
     },
 
     # ======================================================
-    # ULTRA ACTION
+    # ACTION
     # ======================================================
 
-    "ultra_action": {
+    "action_example": {
 
         "type": "example",
 
         "message": (
 
-            "⚡ Ultra Action Chase\n\n"
+            "⚡ Prompt أكشن احترافي\n\n"
 
-            "🇺🇸 English Prompt:\n\n"
-
-            "A realistic Arabic man running through dark "
-            "rainy streets at night, handheld cinematic camera, "
-            "dramatic cinematic lighting, realistic body "
-            "movement, cinematic action atmosphere.\n\n"
-
-            "🇪🇬 Arabic Prompt:\n\n"
-
-            "رجل عربي يركض داخل شوارع مظلمة ممطرة "
-            "ليلًا، كاميرا سينمائية handheld، إضاءة "
-            "أكشن احترافية، حركة جسم واقعية.\n\n"
-
-            "🎬 Cinematic Notes:\n\n"
-
-            "• handheld cinematic camera\n"
-            "• realistic movement only\n"
-            "• dramatic rain reflections"
+            "رجل عربي يركض داخل شوارع "
+            "ممطرة مظلمة، handheld camera، "
+            "dramatic cinematic lighting، "
+            "realistic body movement."
         ),
 
         "options": [
 
             {
-                "id": "ultra_emotional",
-                "title": "😢 Ultra Emotional"
-            },
-
-            {
-                "id": "ultra_cinematic",
-                "title": "🔥 كل الـ Ultra"
+                "id": "cyberpunk_example",
+                "title": "🌃 Cyberpunk Cairo"
             },
 
             {
@@ -329,99 +282,29 @@ assistant_data = {
     },
 
     # ======================================================
-    # ULTRA EMOTIONAL
+    # CYBERPUNK
     # ======================================================
 
-    "ultra_emotional": {
+    "cyberpunk_example": {
 
         "type": "example",
 
         "message": (
 
-            "😢 Ultra Emotional Scene\n\n"
+            "🌃 Cyberpunk Cairo\n\n"
 
-            "🇺🇸 English Prompt:\n\n"
-
-            "A realistic Arabic woman sitting alone during "
-            "sunset, emotional cinematic lighting, realistic "
-            "tears, emotional facial expressions, close-up "
-            "cinematic shot.\n\n"
-
-            "🇪🇬 Arabic Prompt:\n\n"
-
-            "فتاة عربية تجلس وحيدة وقت الغروب، "
-            "إضاءة عاطفية سينمائية، دموع واقعية، "
-            "تعبيرات وجه حزينة طبيعية.\n\n"
-
-            "🎬 Cinematic Notes:\n\n"
-
-            "• close-up only\n"
-            "• emotional facial acting\n"
-            "• cinematic shadows"
+            "رجل عربي يسير داخل شوارع "
+            "القاهرة المستقبلية بإضاءة neon، "
+            "cinematic reflections، "
+            "slow tracking shot، "
+            "ultra realistic atmosphere."
         ),
 
         "options": [
 
             {
-                "id": "ultra_cyberpunk",
-                "title": "🌃 Ultra Cyberpunk"
-            },
-
-            {
-                "id": "ultra_cinematic",
-                "title": "🔥 كل الـ Ultra"
-            },
-
-            {
-                "id": "start",
-                "title": "⬅️ الرئيسية"
-            }
-        ]
-    },
-
-    # ======================================================
-    # ULTRA CYBERPUNK
-    # ======================================================
-
-    "ultra_cyberpunk": {
-
-        "type": "example",
-
-        "message": (
-
-            "🌃 Ultra Cyberpunk Cairo\n\n"
-
-            "🇺🇸 English Prompt:\n\n"
-
-            "A realistic Arabic man walking through futuristic "
-            "cyberpunk Cairo streets at night, neon cinematic "
-            "lighting, realistic reflections, cinematic camera "
-            "movement, cinematic realism.\n\n"
-
-            "🇪🇬 Arabic Prompt:\n\n"
-
-            "رجل عربي يسير داخل شوارع القاهرة "
-            "المستقبلية بإضاءة neon، أجواء cyberpunk "
-            "سينمائية، انعكاسات واقعية، حركة كاميرا "
-            "احترافية.\n\n"
-
-            "🎬 Cinematic Notes:\n\n"
-
-            "• neon reflections\n"
-            "• cinematic night atmosphere\n"
-            "• slow tracking shot"
-        ),
-
-        "options": [
-
-            {
-                "id": "ultra_action",
-                "title": "⚡ Ultra Action"
-            },
-
-            {
-                "id": "ultra_cinematic",
-                "title": "🔥 كل الـ Ultra"
+                "id": "examples",
+                "title": "💡 كل الأمثلة"
             },
 
             {
@@ -447,7 +330,8 @@ assistant_data = {
             "🚫 صور ضبابية\n"
             "🚫 كثرة الشخصيات\n"
             "🚫 حركة عنيفة جدًا\n"
-            "🚫 crowd scenes"
+            "🚫 crowd scenes\n"
+            "🚫 fast camera movement"
         ),
 
         "options": [
@@ -474,20 +358,21 @@ assistant_data = {
 
         "message": (
 
-            "🚀 نصائح احترافية:\n\n"
+            "🔥 نصائح احترافية:\n\n"
 
             "✅ استخدم close-up shots\n"
             "✅ استخدم cinematic lighting\n"
             "✅ استخدم emotional acting\n"
-            "✅ استخدم slow motion\n"
-            "✅ اجعل المشهد بسيط وواضح"
+            "✅ استخدم slow movement\n"
+            "✅ اجعل المشهد بسيط وواضح\n"
+            "✅ استخدم realistic atmosphere"
         ),
 
         "options": [
 
             {
-                "id": "ultra_cinematic",
-                "title": "🔥 Ultra Cinematic"
+                "id": "examples",
+                "title": "💡 أمثلة جاهزة"
             },
 
             {
